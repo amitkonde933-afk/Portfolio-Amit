@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
             localStorage.setItem('theme', 'dark');
         } else {
             body.classList.remove('dark-mode');
-            themeToggle.innerHTML = '☀️';
+            themeToggle.innerHTML = '☀️️';
             localStorage.setItem('theme', 'light');
         }
     }
