@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit Konde</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="loading">
+
+    <div class="scroll-progress"></div>
+    <div class="bg-grid"></div>
+
+    <!-- Preloader with Spinning Chakra and Name/Counter -->
+    <div id="preloader">
+        <div class="preloader-side preloader-left"></div>
+        <div class="preloader-side preloader-right"></div>
+        <div class="preloader-content">
+            <img src="assets/chakra.jpeg" alt="Chakra" class="chakra-spinner">
+            <div class="loader-text">
+                <span>A</span>
+                <span>M</span>
+                <span>I</span>
+                <span>T</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="custom-cursor"></div>
+
+    <header class="main-header">
+        <nav>
+            <a href="#hero" class="nav-link custom-cursor-target">AMIT.</a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link custom-cursor-target">About</a>
+                <a href="#work" class="nav-link custom-cursor-target">Work</a>
+                <a href="#education" class="nav-link custom-cursor-target">Education</a>
+                <a href="#skills" class="nav-link custom-cursor-target">Skills</a>
+                <a href="#interests" class="nav-link custom-cursor-target">Interests</a>
+                <a href="#contact" class="nav-link custom-cursor-target">Contact</a>
+                <button id="theme-toggle" class="custom-cursor-target" aria-label="Toggle light and dark theme">
+                    ☀️
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section with Text and Photo Side-by-Side -->
+        <section id="hero" class="full-screen-section reveal">
+            <div class="hero-grid" style="display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 40px; align-items: center; width: 100%;">
+                <div class="hero-content">
+                    <h1 class="text-large reveal-item">Creative</h1>
+                    <h1 class="text-large reveal-item">Web</h1>
+                    <h1 class="text-large reveal-item">Developer</h1>
+                    <p class="hero-subtext reveal-item">Building scalable full-stack applications and AI-powered products, turning innovative ideas into startup-ready solutions.</p>
+                    <a href="#work" class="cta-button custom-cursor-target reveal-item" style="margin-top: 25px; display: inline-block;">See My Projects →</a>
+                </div>
+                <div class="hero-image-container reveal-item">
+                    <img src="assets/Amit-Photo.jpeg" alt="Amit Konde" class="hero-image" style="width: 100%; max-width: 400px; height: auto; border-radius: 20px; object-fit: cover; box-shadow: 0 20px 40px rgba(0,0,0,0.2);">
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Section : Projects-->
+        <section id="work" class="section-padding">
+            <h2 class="section-title reveal">Featured Projects</h2>
+            <div class="work-grid">
+                <div class="project-card reveal custom-cursor-target" data-category="Web Application Development">
+                    <img src="assets/Freeperk.png" alt="Project One Mockup">
+                    <div class="project-info">
+                        <h3>Freeperk - Discover free tools and resources for students</h3>
+                        <p>FreePerks helps students discover free tools, software, and courses. It makes learning and building more affordable and accessible.</p>
+                        <a href="https://free-perk.vercel.app/" class="view-link custom-cursor-target">Go To The Website</a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal custom-cursor-target" data-category="Web Application Development">
+                    <img src="assets/Verixa.png" alt="Project two Mockup">
+                    <div class="project-info">
+                        <h3>Verixa - AI-Powered Digital Trust</h3>
+                        <p>Verixa is an AI-powered trust layer for digital interactions. It helps users verify information, actions, and digital content with confidence.</p>
+                        <a href="https://verixa-tau.vercel.app/" class="view-link custom-cursor-target">Go To The Website</a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal custom-cursor-target" data-category="Web Application Development">
+                    <img src="assets/CampusCopilot.png" alt="Project three Mockup">
+                    <div class="project-info">
+                        <h3>Campus Copilot - AI-Powered Academic Assistant</h3>
+                        <p>Campus Copilot is an AI-powered assistant designed to help college students to complete repetitive forms quickly and efficiently.</p>
+                        <a href="https://campus-copilot-smoky.vercel.app/" class="view-link custom-cursor-target">Go To The Website</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section-padding reveal">
+            <h2 class="section-title">About Me</h2>
+            <p class="about-text reveal-item">I am <b>AMIT</b>, a <b>Computer Science & Artificial Intelligence student</b> passionate about building innovative products and exploring emerging technologies. I enjoy turning ideas into real-world solutions through software, AI, and entrepreneurship.</p>
+            <ul class="skills-list reveal-item">
+                <li><b>Frontend:</b> HTML5, CSS, JavaScript</li>
+                <li><b>Backend:</b> Python, Java</li>
+                <li><b>Database:</b> SQL (PostgreSQL, MySQL, Oracle DB) & NoSQL (MongoDB)</li>
+            </ul>
+        </section>
+
+        <!-- Education Section : Education and Qualifications-->
+        <section id="education" class="section-padding reveal">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-card reveal-item">
+                    <h3>Bachelor of Science ( BS-Degree )</h3>
+                    <p><b>Institution:</b> Indian Institute of Technology - Madras</p>
+                    <p><b>Field of Study:</b> Data Science and Applications</p>
+                    <p><b>Duration:</b> 2026 - 2030</p>
+                    <p><b>Graduation Year:</b> 2030</p>
+                </div>
+                <div class="education-card reveal-item">
+                    <h3>Computer Science and Artificial Intelligence</h3>
+                    <p><b>Institution:</b> Scaler School of Technology</p>
+                    <p><b>Field of Study:</b> Computer Science & Artificial Intelligence</p>
+                    <p><b>Duration:</b> 2026 - 2030</p>
+                    <p><b>Graduation Year:</b> 2030</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section : Skills and Expertise-->
+        <section id="skills" class="section-padding reveal">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card reveal-item">
+                    <h3>Web Development</h3>
+                    <p>Proficient in building responsive and interactive web applications using HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="skill-card reveal-item">
+                    <h3>Mathematics</h3>
+                    <p>Strong foundation in mathematics, including calculus, linear algebra, and statistics.</p>
+                </div>
+                <div class="skill-card reveal-item">
+                    <h3>Photography</h3>
+                    <p>Passionate about capturing moments and telling stories through the lens of a camera.</p>
+                </div>
+                <div class="skill-card reveal-item">
+                    <h3>Video Editing</h3>
+                    <p>Gaining experience in editing and producing high-quality videos for various platforms and purposes.</p>
+                </div>
+                <div class="skill-card reveal-item">
+                    <h3>Graphic Design</h3>
+                    <p>Skilled in creating visually appealing designs using tools like Adobe Photoshop and Illustrator.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interests Section : Hobbies and Interests-->
+        <section id="interests" class="section-padding reveal">
+            <h2 class="section-title">Interests</h2>
+            <div class="interests-grid">
+                <div class="interest-card reveal-item">
+                    <h3>Watching Movies</h3>
+                    <p>Enjoying a wide range of film genres and analyzing storytelling techniques.</p>
+                </div>
+                <div class="interest-card reveal-item">
+                    <h3>Playing Flute</h3>
+                    <p>Practicing and performing on the flute, exploring different musical styles and compositions.</p>
+                </div>
+                <div class="interest-card reveal-item">
+                    <h3>Foody Person</h3>
+                    <p>Exploring different cuisines and cooking techniques, appreciating the art of culinary creation.</p>
+                </div>
+                <div class="interest-card reveal-item">
+                    <h3>Playing Kabaddi and Chess</h3>
+                    <p>Engaging in these strategic games to enhance cognitive skills and promote mental agility.</p>
+                </div>
+                <div class="interest-card reveal-item">
+                    <h3>Solving Mathematical Problems and Puzzles</h3>
+                    <p>Enjoying the challenge of tackling complex mathematical problems and logical puzzles.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section : Contact Information and Links-->
+        <section id="contact" class="full-screen-section reveal">
+            <h2 class="section-title reveal-item">Let's Connect.</h2>
+            <p class="contact-subtext reveal-item">Always open to new ideas, collaborations, and opportunities.</p>
+            <div class="contact-links reveal-item">
+                <a href="mailto:amit24.inbox@gmail.com" class="cta-button custom-cursor-target">Email Me</a>
+                <a href="https://www.linkedin.com/in/amit-konde-24a936k/" target="_blank" class="custom-cursor-target social-link">LinkedIn</a>
+                <a href="https://github.com/amitkonde933-afk" target="_blank" class="custom-cursor-target social-link">GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
